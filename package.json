@@ -1,0 +1,15 @@
+{
+  "name": "stickman-relay-server",
+  "version": "1.0.0",
+  "description": "High-speed 5-Digit Room ID WebSocket Binary Relay Server for Shinjuku Showdown (Godot 4.7.2)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
